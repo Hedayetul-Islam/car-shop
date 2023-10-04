@@ -8,7 +8,7 @@ const CarCard = ({car}) => {
     return (
         <div>
             <div className="card w-full bg-base-100 shadow-xl">
-                <figure><img className='h-80 rounded' src={image} alt="Shoes" /></figure>
+                <figure><img className='h-80 rounded p-3' src={image} alt="Shoes" /></figure>
                 <div className="card-body">
                     <div className="flex justify-between mb-4">
                         <h2 className="card-title">{name}</h2>

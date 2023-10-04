@@ -49,7 +49,7 @@ const Car = () => {
     };
 
     return (
-        <div className='lg:p-10'>
+        <div className='lg:p-10 p-4'>
             <input
                 type="text"
                 placeholder="Search by name"
